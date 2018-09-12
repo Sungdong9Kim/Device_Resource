@@ -1,4 +1,5 @@
 # Device_Resource
-mendatory device resource input json file for using device builder
+Mendatory device resource input json file for using device builder
 
+If you want to get OCF device certification, device must be comply with the below-linked specification. 
 OCF Device Specification Link : https://openconnectivity.org/specs/OCF_Device_Specification_v2.0.0.pdf
