@@ -1,0 +1,19 @@
+[
+  {
+    "path" : "/binaryswitch",
+    "rt"   : [ "oic.r.switch.binary" ],
+    "if"   : ["oic.if.baseline", "oic.if.a" ],
+    "remove_properties" : [ "range", "step" , "id", "precision" ]
+  },
+  {
+    "path" : "/humidity",
+    "rt"   : [ "oic.r.humidity" ],
+    "if"   : ["oic.if.baseline", "oic.if.s" ],
+  },
+  {
+    "path" : "/oic/p",
+    "rt"   : [ "oic.wk.p" ],
+    "if"   : ["oic.if.baseline", "oic.if.r" ],
+    "remove_properties" : [ "n", "range", "value", "step", "precision", "vid"  ]
+  }
+]
