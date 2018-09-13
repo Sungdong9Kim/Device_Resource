@@ -16,6 +16,11 @@
     "if"   : ["oic.if.baseline", "oic.if.a" ],
   },
   {
+    "path" : "/vehicleconnector",
+    "rt"   : [ "oic.r.vehicleconnector" ],
+    "if"   : ["oic.if.baseline", "oic.if.a" ],
+  },
+  {
     "path" : "/oic/p",
     "rt"   : [ "oic.wk.p" ],
     "if"   : ["oic.if.baseline", "oic.if.r" ],
