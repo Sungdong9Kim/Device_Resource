@@ -1,0 +1,19 @@
+[
+  {
+    "path" : "/operationalstate",
+    "rt"   : [ "oic.r.operational.state" ],
+    "if"   : ["oic.if.baseline", "oic.if.a" ],
+    "remove_properties" : [ "range", "step" , "id", "precision" ]
+  },
+  {
+    "path" : "/grindersetting",
+    "rt"   : [ "oic.r.grinder" ],
+    "if"   : ["oic.if.baseline", "oic.if.a" ],
+  },
+  {
+    "path" : "/oic/p",
+    "rt"   : [ "oic.wk.p" ],
+    "if"   : ["oic.if.baseline", "oic.if.r" ],
+    "remove_properties" : [ "n", "range", "value", "step", "precision", "vid"  ]
+  }
+]
